@@ -11,33 +11,33 @@ This project is unmaintained. I created this for enl.io's Telegram integration b
 The methods available in this api are briefly listed below and in more detail at /swagger.
 
 ## Channels
-POST /channels
-POST /channels/{channelId}/users/{userId}/role
-GET /channels/{channelId}
-POST /channels/invite
-POST /channels/remove
-GET /channels/{channelId}/history
+* POST /channels
+* POST /channels/{channelId}/users/{userId}/role
+* GET /channels/{channelId}
+* POST /channels/invite
+* POST /channels/remove
+* GET /channels/{channelId}/history
 
 ## Chats
-POST /chats
-POST /chats/{chatId}/admin-toggle
-POST /chats/{chatId}/send-message
-POST /chats/{chatId}/is-admin
-POST /chats/{chatId}/add
-POST /chats/{chatId}/remove
-POST /chats/{chatId}/rename
-GET /chats/{chatId}/history
-GET /chats/{chatId}/members
-POST /chats/{chatId}/migrate
+* POST /chats
+* POST /chats/{chatId}/admin-toggle
+* POST /chats/{chatId}/send-message
+* POST /chats/{chatId}/is-admin
+* POST /chats/{chatId}/add
+* POST /chats/{chatId}/remove
+* POST /chats/{chatId}/rename
+* GET /chats/{chatId}/history
+* GET /chats/{chatId}/members
+* POST /chats/{chatId}/migrate
 
 ## Config
 These endpoints are just for getting the api connected and checking it's status.
-GET /config/status
-GET /config/signin
-POST /config/verify
+* GET /config/status
+* GET /config/signin
+* POST /config/verify
 
 ## Users
-GET /users/contacts
-GET /users/chats
-GET /users
-GET /users/{userId}/history
+* GET /users/contacts
+* GET /users/chats
+* GET /users
+* GET /users/{userId}/history
